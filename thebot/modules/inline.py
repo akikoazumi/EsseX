@@ -32,7 +32,7 @@ async def inline_query_handler(client, query):
             results=[
                 InlineQueryResultPhoto(
                     caption="Heyya, Try me in Inline by Pressing these buttons below",
-                    photo_url="https://telegra.ph/file/ed938a282abcd7a87a033.jpg",
+                    photo_url="https://telegra.ph/file/c88321ce7969fa03d5f64.jpg",
                     parse_mode="markdown",
                     title=f"Need Help?",
                     description=f"Click Here..",
@@ -40,14 +40,14 @@ async def inline_query_handler(client, query):
                         [[
                         InlineKeyboardButton("Anime", switch_inline_query_current_chat="anime "),
                         InlineKeyboardButton("Manga", switch_inline_query_current_chat="manga "),
-                        InlineKeyboardButton("nHentai", switch_inline_query_current_chat="nhentai ")
+      
                         ],
                         [
                         InlineKeyboardButton("Airing", switch_inline_query_current_chat="airing "),
                         InlineKeyboardButton("Character", switch_inline_query_current_chat="char ")
                         ],
                         [
-                        InlineKeyboardButton(text="Help", url="https://t.me/TheEsseXBot?start=help")
+                        InlineKeyboardButton(text="Help", url="https://t.me/shirokusa_bot?start=help")
                         ]]
                     )
                 ),
